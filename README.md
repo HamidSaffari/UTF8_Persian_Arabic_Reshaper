@@ -26,5 +26,5 @@ Download/Clone repository, then Put it in your Arduino Libraries folder.
   Copyright (C) 2019 Ramin Sangesari (mailto:r.sangsari@gmail.com)
   https://github.com/idreamsi/u8g2-persian-reshaper
   
-  Updated @ Apr 2020 by amid Saffari hamidsaffari@yahoo.com
+  Updated @ Apr 2020 by Hamid Saffari hamidsaffari@yahoo.com
   https://github.com/HamidSaffari/UTF8_Persian_Arabic_Reshaper
