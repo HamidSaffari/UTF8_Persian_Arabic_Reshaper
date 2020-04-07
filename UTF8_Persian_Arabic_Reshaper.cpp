@@ -8,6 +8,14 @@
 
 #include <UTF8_Persian_Arabic_Reshaper.h>
 
+#ifdef RaspberryPi
+    // PROGMEM and _P functions are for AVR based microprocessors,
+    // so we must normalize these for the ARM processor:
+    #define PROGMEM
+    #define memcpy_P(dest, src, num) memcpy((dest), (src), (num))
+#endif
+
+
 UTF8_Persian_Arabic_Reshaper::UTF8_Persian_Arabic_Reshaper() {
 }
 
