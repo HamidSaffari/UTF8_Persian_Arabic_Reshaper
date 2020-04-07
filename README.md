@@ -1,5 +1,5 @@
 ## 📖 About
-An arduino Library fot Reconstructing Persian/Arabic sentences.
+An Arduino C Library fot Reconstructing Persian/Arabic sentences.
 
 In languages like Persian/Arabic, the letter is modified depending on where it should go in a word. Usually, when you print to the display ordinary Persian/Arabic text, each character is printed individually and is not joined together, whereas a computer would join it automatically on the screen but not modifying the actual data of each character.
 
