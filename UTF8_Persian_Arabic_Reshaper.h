@@ -16,11 +16,6 @@
     #include "Energia.h"
 #elif defined(RPI) // Raspberry Pi
     #define RaspberryPi
-
-    // Include libraries for RPi:
-    #include <string.h> /* memcpy */
-    #include <stdlib.h> /* abs */
-    #include <wiringPi.h>
 #elif defined(SPARK)
     #include "application.h"
 #else
@@ -28,10 +23,8 @@
 #endif
 
 //----------------------------------------------------------------------------
-//#define DEBUG
 
-#define N_DISTINCT_CHARACTERS           62
-#define IS_UNICODE(c)                   (((c) & 0xc0) == 0xc0)
+//#define DEBUG
 
 //----------------------------------------------------------------------------
 
@@ -132,6 +125,7 @@ const prGlyph prForms[] PROGMEM = {
     {40, "\u0029", "\u0029", "\u0029", "\u0029", "\u0029" }       //62 )
 };
 
+#define N_DISTINCT_CHARACTERS           62
 
 #endif
 
