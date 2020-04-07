@@ -12,7 +12,6 @@ So when you try to print text written in Persian/Arabic script on LCD/OLED displ
 
 <p align="center">
   <img src="http://mpcabd.xyz/wp-content/uploads/2012/05/arabic-1.png">
-  <img src="https://github.com/HamidSaffari/UTF8_Persian_Arabic_Reshaper/blob/master/Pictures/STM32F103%2BILI9341.jpg">
 </p>
 
 Since Arduino and many low-level platforms do not support UTF-16 16-bit Unicode (wchart_t) inputs and functions so makes it hard to manipulate with chars inside words.
@@ -20,6 +19,7 @@ Since Arduino and many low-level platforms do not support UTF-16 16-bit Unicode 
 ## 📷 Screenshot
 <p align="center">
   <img width="516" height="600" src="https://github.com/idreamsi/u8g2-persian-reshaper/blob/master/screenshot.jpg?raw=true">
+  <img src="https://github.com/HamidSaffari/UTF8_Persian_Arabic_Reshaper/blob/master/Pictures/STM32F103%2BILI9341.jpg">
 </p>
 
 ## ⚙️ Download & Usage
