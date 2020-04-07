@@ -1,5 +1,7 @@
 ## 📖 About
-Reconstruct Persian/Arabic sentences for use in the [u8g2 library](https://github.com/olikraus/u8g2/). In languages like Persian/Arabic, the letter is modified depending on where it should go in a word. Usually, when you print to the display ordinary Persian/Arabic text, each character is printed individually and is not joined together, whereas a computer would join it automatically on the screen but not modifying the actual data of each character.
+An arduino Library fot Reconstructing Persian/Arabic sentences.
+
+In languages like Persian/Arabic, the letter is modified depending on where it should go in a word. Usually, when you print to the display ordinary Persian/Arabic text, each character is printed individually and is not joined together, whereas a computer would join it automatically on the screen but not modifying the actual data of each character.
 
 ## 📚 Description
 Persian/Arabic script is very special with two essential features:
@@ -18,7 +20,7 @@ So when you try to print text written in Persian/Arabic script on LCD/OLED displ
 </p>
 
 ## ⚙️ Download & Usage
-Download/Clone repository, then Install [u8g2 library](https://github.com/olikraus/u8g2/wiki/u8g2install). Change [this line](https://github.com/idreamsi/u8g2-persian-reshaper/blob/629c98f3ab882f6cb7662f8ce0c2ef2c2fa8111d/u8g2-persian-reshaper.ino#L15) depending on the display type and wiring. Finally upload the code.
+Download/Clone repository, then Put it in your Arduino Libraries folder.
 
 [راهنمای استفاده به زبان فارسی](http://www.idreams.ir/%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d9%86%d9%88%db%8c%d8%b3%db%8c-%d8%af%d8%b1-%d8%a2%d8%b1%d8%af%d9%88%db%8c%d9%86%d9%88-%d8%a8%d8%a7-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-u8g2/)
 
@@ -27,8 +29,6 @@ Download/Clone repository, then Install [u8g2 library](https://github.com/olikra
 ## 📫 Contact
 Copyright (C) 2019 [Ramin Sangesari](mailto:r.sangsari@gmail.com).
 
-## 💵 Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :)
-
-- Donate via Bitcoin: 176H7tbpfyUVKiwkkwj6BJfC1X7hQWTq8v
-- [Donate via IDPay](https://idpay.ir/idreams)
+  https://github.com/idreamsi/u8g2-persian-reshaper
+  Updated @ Apr 2020 by hamidsaffari@yahoo.com
+  https://github.com/HamidSaffari/UTF8_Persian_Arabic_Reshaper
