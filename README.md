@@ -1,5 +1,5 @@
 ## 📖 About
-An Arduino C Library for Reconstructing Persian/Arabic sentences.
+C/C++ UTF-8-only-supported-Platforms Library for Reconstructing Persian or Arabic sentences.
 
 In languages like Persian/Arabic, the letter is modified depending on where it should go in a word. Usually, when you print to the display ordinary Persian/Arabic text, each character is printed individually and is not joined together, whereas a computer would join it automatically on the screen but not modifying the actual data of each character.
 
@@ -13,6 +13,8 @@ So when you try to print text written in Persian/Arabic script on LCD/OLED displ
 <p align="center">
   <img src="http://mpcabd.xyz/wp-content/uploads/2012/05/arabic-1.png">
 </p>
+
+Since Arduino and many low-level platforms do not support UTF-16 16-bit Unicode (wchart_t) inputs and functions so makes it hard to manipulate with chars inside words.
 
 ## 📷 Screenshot
 <p align="center">
